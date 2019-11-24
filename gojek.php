@@ -1,7 +1,7 @@
 <?php date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green","[]      mahlukganteng.com      []\n");
-echo color("green","[]      Memru Gozzek  Update 24 Nov 2019  []\n");
+echo color("green","[]      Memru Gozzek           []\n");
 echo color("green","[]  Time  : ".date('[d-m-Y] [H:i:s]')."   []\n");
 
 function change(){
