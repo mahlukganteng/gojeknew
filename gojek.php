@@ -29,7 +29,7 @@ function change(){
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
         echo color("red","===========(REDEEM VOUCHER)===========");
-        
+        }
         
         sleep(3);
         $goride1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAINGOJEK"}');
@@ -91,7 +91,10 @@ function change(){
          die();
          }else{
          echo color("red","-] GAGAL!!!\n");
-        
+         }
+         }
+         }
+         }
          }else{
          goto setpin;
          }
